@@ -1,0 +1,21 @@
+{
+  "name": "hamburger-icon",
+  "version": "1.0.0",
+  "authors": [
+    "Denis Malinochkin <dmalinochkin@land.ru>"
+  ],
+  "description": "Mixins for creating hamburger icons",
+  "keywords": [
+    "hamburger",
+    "burger",
+    "navicon",
+    "menu",
+    "icon",
+    "mixin",
+    "less",
+    "sass",
+    "stylus"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mrmlnc/hamburger-icon"
+}
