@@ -15,7 +15,7 @@ Installation
 
 * Download the files you need from the this repository;
 * Bower: `$ bower install hamburger-icon --save`;
-* Git: `$ git clone git://github.com/mrmlnc/material-color.git`;
+* Git: `$ git clone git://github.com/mrmlnc/hamburger-icon.git`;
 
 How to use
 --------------
