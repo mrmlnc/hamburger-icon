@@ -62,6 +62,14 @@ You can change the settings:
 How to use
 --------------
 
+**HTML:**
+
+````HTML
+<button class="navigation-toggle" data-tools="collapse" data-target="#globalNavbar">
+  <span class="menu-icon"></span>
+</button>
+```
+
 **Less:**
 
 Required mixin of settings `.hamburger-settings()`.
