@@ -13,7 +13,8 @@
 
 // Hamburger Settings
 // ------------------------------------------------------------------------
-$hamburger-settings: () !default;
+$hamburger-settings-height: 0 !default;
+$hamburger-settings-gutter: 0 !default;
 
 
 
@@ -23,8 +24,8 @@ $hamburger-settings: () !default;
                            $border-radius: 0, $duration: .3s,
                            $timing-function: ease) {
   // Set variables
-  $hamburger-settings: append($hamburger-settings, $height);
-  $hamburger-settings: append($hamburger-settings, $gutter);
+  $hamburger-settings-height: $height !global;
+  $hamburger-settings-gutter: $gutter !global;
 
   position: relative;
   margin-top: $height + $gutter;
@@ -65,15 +66,13 @@ $hamburger-settings: () !default;
 // Hamburger Animation
 // ------------------------------------------------------------------------
 @mixin hamburger-animation {
-  $height: nth($hamburger-settings, 1);
-  $gutter: nth($hamburger-settings, 2);
   background-color: transparent;
 
   &:before {
-    transform: translateY($gutter + $height) rotate(45deg);
+    transform: translateY($hamburger-settings-gutter + $hamburger-settings-height) rotate(45deg);
   }
 
   &:after {
-    transform: translateY(-($gutter + $height)) rotate(-45deg);
+    transform: translateY(-($hamburger-settings-gutter + $hamburger-settings-height)) rotate(-45deg);
   }
 }
