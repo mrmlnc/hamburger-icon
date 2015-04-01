@@ -1,0 +1,21 @@
+//
+// Test:           hamburger-icon.less
+// Version:        1.0.2
+//
+// ------------------------------------
+
+@import "../hamburger-icon.less";
+
+//
+// ------------------------------------
+.hamburger-settings(24px, 3px, 5px, #777, @timing-function: linear);
+
+.menu-icon {
+  .hamburger-generator();
+}
+
+.navigation-toggle {
+  &.active .menu-icon {
+    .hamburger-animation();
+  }
+}

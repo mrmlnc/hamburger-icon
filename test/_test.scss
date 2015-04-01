@@ -1,0 +1,24 @@
+//
+// Test:           hamburger-icon.scss
+// Version:        1.0.2
+//
+// ------------------------------------
+
+@import "../hamburger-icon.scss";
+
+// Default
+// ------------------------------------
+$_width: 24px;
+$_thickness: 3px;
+$_gap: 5px;
+$color: #777;
+
+.menu-icon {
+  @include hamburger-generator($_width, $_thickness, $_gap, $color, $timing-function: linear);
+}
+
+.navigation-toggle {
+  &.active .menu-icon {
+    @include hamburger-animation();
+  }
+}

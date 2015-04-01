@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <!-- Styles -->
+  <style>
+    body { text-align: center; }
+    .wrapper { display: inline; }
+    .btn {
+      background-color: transparent;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+    }
+  </style>
+  <link rel="stylesheet" href="_test.css">
+</head>
+<body>
+
+  <!-- Wrapper -->
+  <div class="wrapper">
+    <h2>The default view</h2>
+    <button class="btn navigation-toggle" id="navToggleButton">
+      <span class="menu-icon"></span>
+    </button>
+
+    <h2>Active state</h2>
+    <button class="btn navigation-toggle active">
+      <span class="menu-icon"></span>
+    </button>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var navToggleEl = document.getElementById('navToggleButton');
+      navToggleEl.addEventListener('click', function() {
+        navToggleEl.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>

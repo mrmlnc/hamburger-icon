@@ -1,0 +1,16 @@
+//
+// Test:           hamburger-icon.styl
+// Version:        1.0.2
+//
+// ------------------------------------
+
+@import "../hamburger-icon.styl";
+
+// Default
+// ------------------------------------
+.menu-icon
+  hamburger-generator(24px, 3px, 5px, #777, $timing-function: linear)
+
+.navigation-toggle
+  &.active .menu-icon
+    hamburger-animation()
