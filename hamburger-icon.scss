@@ -45,19 +45,20 @@ $hamburger-settings-gutter: 0 !default;
     }
 
     background-color: $color;
+  }
 
-    &:before, &:after {
-        position: absolute;
-        content: "";
-    }
+  &:before,
+  &:after {
+    position: absolute;
+    content: "";
+  }
 
-    &:before {
-        top: -($height + $gutter);
-    }
+  &:before {
+    top: -($height + $gutter);
+  }
 
-    &:after {
-        top: $height + $gutter;
-    }
+  &:after {
+    top: $height + $gutter;
   }
 }
 
