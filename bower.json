@@ -1,6 +1,5 @@
 {
   "name": "hamburger-icon",
-  "version": "1.0.2",
   "authors": [
     "Denis Malinochkin <dmalinochkin@land.ru>"
   ],
@@ -17,5 +16,8 @@
     "stylus"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/mrmlnc/hamburger-icon"
+  "homepage": "https://github.com/mrmlnc/hamburger-icon",
+  "ignore": [
+    "test"
+  ]
 }
