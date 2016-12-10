@@ -1,26 +1,20 @@
-Hamburger Icon
-==============
+# Hamburger Icon
 
-Mixins for creating hamburger icons.
+> A collection of mixins for creating hamburger icons.
 
 Basic idea — [Sass Burger](https://github.com/jorenvanhee/sass-burger).
 
-Support
---------------
+## Support
 
 Support for all popular css preprocessors: [Less](http://lesscss.org/), [Sass](http://sass-lang.com/) and [Stylus](http://learnboost.github.io/stylus/).
 
-Installation
---------------
+## Installation
 
 * Download the files you need from the this repository;
 * Bower: `$ bower install hamburger-icon --save`;
 * Git: `$ git clone git://github.com/mrmlnc/hamburger-icon.git`;
 
-How to use
---------------
-
-Just import the file, whitch includes variables colors in your project.
+Then just import the file, whitch includes variables colors in your project.
 
 **Less:**
 
@@ -46,8 +40,7 @@ If you use Bower, the path would be:
   bower_components/hamburger-icon/..
 ````
 
-Settings
---------------
+## Settings
 
 You can change the settings:
 
@@ -59,8 +52,7 @@ You can change the settings:
  * duration — *default: .3s*;
  * timing-function — *default: ease*;
 
-How to use
---------------
+## How to use
 
 **HTML:**
 
@@ -112,3 +104,11 @@ Required mixin of settings `.hamburger-settings()`.
   &.active .menu-icon
     hamburger-animation()
 ````
+
+## Changelog
+
+See the [Releases section of our GitHub project](https://github.com/mrmlnc/hamburger-icon/releases) for changelogs for each release version.
+
+## License
+
+This software is released under the terms of the MIT license.

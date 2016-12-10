@@ -1,9 +1,15 @@
 {
   "name": "hamburger-icon",
+  "description": "A collection of mixins for creating hamburger icons",
+  "license": "MIT",
   "authors": [
-    "Denis Malinochkin <dmalinochkin@land.ru>"
+    "Denis Malinochkin <dmalinochkin@rambler.ru> (www.canonium.com)"
   ],
-  "description": "Mixins for creating hamburger icons",
+  "homepage": "https://github.com/mrmlnc/hamburger-icon",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrmlnc/hamburger-icon.git"
+  },
   "keywords": [
     "hamburger",
     "burger",
@@ -15,9 +21,13 @@
     "sass",
     "stylus"
   ],
-  "license": "MIT",
-  "homepage": "https://github.com/mrmlnc/hamburger-icon",
+  "main": [
+    "hamburger-icon.less",
+    "hamburger-icon.scss",
+    "hamburger-icon.styl"
+  ],
   "ignore": [
-    "test"
+    "test",
+    "package.json"
   ]
 }
