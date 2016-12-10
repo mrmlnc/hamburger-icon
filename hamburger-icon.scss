@@ -28,8 +28,7 @@ $hamburger-settings-gutter: 0 !default;
   $hamburger-settings-gutter: $gutter !global;
 
   position: relative;
-  margin-top: $height + $gutter;
-  margin-bottom: $height + $gutter;
+  margin: ($height + $gutter) auto;
 
   &,
   &:before,
