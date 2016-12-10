@@ -1,0 +1,27 @@
+{
+  "name": "hamburger-icon",
+  "version": "1.1.0",
+  "description": "A collection of mixins for creating hamburger icons",
+  "license": "MIT",
+  "repository": "mrmlnc/hamburger-icon",
+  "author": {
+    "name": "Denis Malinochkin",
+    "url": "canonium.com"
+  },
+  "keywords": [
+    "hamburger",
+    "burger",
+    "navicon",
+    "menu",
+    "icon",
+    "mixin",
+    "less",
+    "sass",
+    "stylus"
+  ],
+  "files": [
+    "hamburger-icon.less",
+    "hamburger-icon.scss",
+    "hamburger-icon.styl"
+  ]
+}
