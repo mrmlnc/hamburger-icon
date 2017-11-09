@@ -56,7 +56,7 @@ You can change the settings:
 
 **HTML:**
 
-````HTML
+```html
 <button class="navigation-toggle" data-tools="collapse" data-target="#globalNavbar">
   <span class="menu-icon"></span>
 </button>
@@ -66,7 +66,7 @@ You can change the settings:
 
 Required mixin of settings `.hamburger-settings()`.
 
-````Less
+```less
 .hamburger-settings(24px, 3px, 5px, #777, @timing-function: linear);
 
 .menu-icon {
@@ -78,11 +78,11 @@ Required mixin of settings `.hamburger-settings()`.
     .hamburger-animation();
   }
 }
-````
+```
 
 **SASS:**
 
-````scss
+```scss
 .menu-icon {
   @include hamburger-generator(24px, 3px, 5px, #777, $timing-function: linear);
 }
@@ -92,18 +92,18 @@ Required mixin of settings `.hamburger-settings()`.
     @include hamburger-animation();
   }
 }
-````
+```
 
 **Stylus:**
 
-````Stylus
+```stylus
 .menu-icon
   hamburger-generator(24px, 3px, 5px, #777, $timing-function: linear)
 
 .navigation-toggle
   &.active .menu-icon
     hamburger-animation()
-````
+```
 
 ## Changelog
 
